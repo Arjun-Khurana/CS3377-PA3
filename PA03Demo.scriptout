@@ -1,0 +1,33 @@
+Script started on Sun 24 Mar 2019 11:41:05 PM CDT
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment03[0m
+[1;32m$[0m ls
+myshell.c  PA03Demo.scriptout
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment03[0m
+[1;32m$[0m gcc - o [K[K[K[Kmyshell.c -o myshell.c [K[K[K.mx
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment03[0m
+[1;32m$[0m ./myshell.mx 
+myshell > ls
+myshell.c  myshell.mx  PA03Demo.scriptout
+myshell > ls -a; l; ls
+total 36
+drwxr-xr-x  3 arjun arjun  4096 Mar 24 23:41 .
+drwxrwxrwx 15 arjun arjun  4096 Mar 18 21:25 ..
+-rw-r--r--  1 arjun arjun  5693 Mar 24 23:41 myshell.c
+-rwxr-xr-x  1 arjun arjun 13840 Mar 24 23:41 myshell.mx
+-rw-r--r--  1 arjun arjun     0 Mar 24 23:41 PA03Demo.scriptout
+drwxr-xr-x  3 arjun arjun  4096 Mar 24 17:19 .vscode
+myshell.c  myshell.mx  PA03Demo.scriptout
+myshell > ls | wc -l
+3
+myshell > ls > output.txt
+myshell > cat output.txt
+myshell.c
+myshell.mx
+output.txt
+PA03Demo.scriptout
+myshell > ls    exit
+[1;35marjun[0m@[1;36mxps13[0m:[1;32m~/Documents/CS3377/Assignment03[0m
+[1;32m$[0m exit
+exit
+
+Script done on Sun 24 Mar 2019 11:42:45 PM CDT
